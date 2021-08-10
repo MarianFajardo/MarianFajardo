@@ -9,3 +9,8 @@ You can click the Preview link to take a look at your changes.
 --->
 Este repositorio fue creado para las pruebas de ingreso a ML
 El codigo entregado esta por niveles
+
+**DESAFIOS**
+Nivel 1
+Programa (en cualquier lenguaje de programación) que cumpla con el método pedido por Magneto.
+Para este nivel tenemos el codigo genrado en Java 1.8 con Spring Boot en donde es una sencilla aplicaicon que tiene la logica para 
