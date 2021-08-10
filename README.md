@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MarianFajardo
 - 👀 I’m interested in systems and programming, I like to paint in aquarella and I try to be better every day, Un ingniero es de ingenio y recursivo
-- 🌱 I’m currently learning to paint in aquarella
+- 🌱 I’m currently learning to paint in aquarella becasuse make me better for my relationships in my life
 - 📫 How to reach me marian.fajardo@gmail.com
 
 <!---
