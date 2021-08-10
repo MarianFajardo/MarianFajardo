@@ -18,7 +18,7 @@ public class CompararADN {
 	        }
 			
 			String seqX = dna[i];
-			//System.out.println("Palabra " + seqX);
+			System.out.println("Palabra " + seqX);
 			char[] seqY = seqX.toCharArray();
 
 			for (int j = 0; j < seqY.length; j++) {
@@ -64,7 +64,7 @@ public class CompararADN {
 	public static void main(String[] args) {
 		String[] dna1 = {"GAGCGA","GAGTGC","GTATGT","GCAAGG","CCGCTA","TCACTG", "AAACCC"};
 		isMutant(dna1);
-		//System.out.println(mutante);
+		System.out.println(mutante);
 	}
 
 }
