@@ -21,19 +21,20 @@ El codigo entregado esta por niveles
 **DESAFIOS**
 
 Nivel 1
+
 Programa (en cualquier lenguaje de programación) que cumpla con el método pedido por Magneto.
 
 Para este nivel tenemos el código creado para Java 1.8, es una sencilla aplicación (Java Project) que tiene la lógica para recibir un String como una sola línea y lo transforma en una matriz para luego analizarlos por las diferentes posiciones y encontrar si tiene secuencias hasta cuatro veces repetidas y determinar si es o no un mutante.
 
 Este proyecto tiene una clase llamada ComparaADN con la logica descrita y adicionalmente con un método main para ser ejecutada
 
-MarianFajardo/Mutantes/
-
 **Clases **
-
 •	Mutantes
 
+Esto se encuentra en el paquete de Mutantes
+
 Nivel 2
+
 Crear una API REST, hostear esa API en un cloud computing libre (Google App Engine,
 Amazon AWS, etc), crear el servicio “/mutant/” en donde se pueda detectar si un humano es
 mutante enviando la secuencia de ADN mediante un HTTP POST con un Json el cual tenga el
@@ -66,12 +67,17 @@ Mutante
 ![Screen Shot 2021-08-09 at 23 14 07](https://user-images.githubusercontent.com/88635536/128808198-1613abf5-14f3-485e-adba-f35e91278114.png)
 
 
+Esta aplicación se encuentra en el paquete 
+
+
 **Nivel 3**
+
 Anexar una base de datos, la cual guarde los ADN’s verificados con la API.
 Solo 1 registro por ADN. Exponer un servicio extra “/stats” que devuelva un Json con las estadísticas de las verificaciones de ADN: {“count_mutant_dna”:40, “count_human_dna”:100: “ratio”:0.4} 
 Tener en cuenta que la API puede recibir fluctuaciones agresivas de tráfico (Entre 100 y 1 millón de peticiones por segundo).
 
 Test-Automáticos, Code coverage > 80%.
+
 
 Este nivel no ha sido completado sin embargo es posible diseñar este desafío de una manera que la aplicación web se conecte a la BD por medio del servidor de aplicaciones en donde este tenga creado un pool de conexiones a esta para que de esta forma se administre de manera eficiente las conexiones a la BD, es importante tener en cuenta que adicionar el método de conteo de accesos no es complicado a nivel de código pero que es necesario tener una infraestructura robusta para el tema de las fluctuaciones tan grandes pues un millones de peticiones en un segundo es considerado un ataque de denegación de servicios, es decir que las balanceadores que estén de frente deben tener la posibilidad de bloquear la IP de la que se generan este tipo de peticiones, un millón de peticiones en un segundo es posible simularlo con una herramienta como jmeter de manera sencilla para el método GET sin embargo es posible que la plataforma bloquee este tipo de peticiones y se debe tener presente que la arquitectura debe proveer la capacidad (almacenamiento, disco, procesador y memoria) para responder a esta fluctuación tan alta en tan poco tiempo. 
 
