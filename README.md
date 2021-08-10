@@ -29,6 +29,7 @@ Para este nivel tenemos el código creado para Java 1.8, es una sencilla aplicac
 Este proyecto tiene una clase llamada ComparaADN con la logica descrita y adicionalmente con un método main para ser ejecutada
 
 **Clases **
+
 •	Mutantes
 
 Esto se encuentra en el paquete de Mutantes
@@ -55,7 +56,9 @@ La aplicación esta alojada en AWS en un servicio llamado AWS Elastic Beanstalk 
 Para efectos de la prueba es una manera sencilla de acceder al host de la aplicación y publicación del servicio, por medio de la siguiente URL
  http://imutant-env.eba-pksfigp4.us-east-2.elasticbeanstalk.com/mutant
  
-He implementado el método GET y el método POST![image](https://user-images.githubusercontent.com/88635536/128810374-da40c612-fba6-42c0-b9e0-609ab378f3d6.png)
+He implementado el método GET (para veriricacion de la funcionalidad facilmente y no tener lios al desplegar en el AWS) y el método POST (como especifica el ejercicio)![image](https://user-images.githubusercontent.com/88635536/128810374-da40c612-fba6-42c0-b9e0-609ab378f3d6.png)
+
+Esta aplicación se encuentra en el paquete ml-mutant-service
 
 A continuación se puede revisar como se accede al servicio de manera exitosa y no exitosa (mutante o no mutante )
 
@@ -66,8 +69,6 @@ Humano
 Mutante 
 ![Screen Shot 2021-08-09 at 23 14 07](https://user-images.githubusercontent.com/88635536/128808198-1613abf5-14f3-485e-adba-f35e91278114.png)
 
-
-Esta aplicación se encuentra en el paquete 
 
 
 **Nivel 3**
