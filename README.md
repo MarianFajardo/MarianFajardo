@@ -32,7 +32,9 @@ Este proyecto tiene una clase llamada ComparaADN con la logica descrita y adicio
 
 •	Mutantes
 
-Esto se encuentra en el paquete de Mutantes
+Esto se encuentra en el paquete de Mutantes y adicionlamente se incluye un jar para que pueda ser ejecutado con la instrucción desde la consola de comandos o haciendo doble clic desde un PC con Windows y JRE instaladas 
+
+#java -jar mutantes.jar
 
 Nivel 2
 
